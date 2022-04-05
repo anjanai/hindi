@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Hindi Adjectives and Possessives </title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+	  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	  crossorigin="anonymous">
+    <style>
+      table td { font-family: monospace;}
+      table td:hover{ background-color: silver;}
+      tbody tr:nth-child(4n) {  border-bottom:10px solid #000;}
+    </style>
+    <script src=adjectives.js></script>
+    
+  </head>
+ 
+  <body>
+    <div class="container">
+    <h1> Hindi Adjectives and Possessives </h1>
+    <p> Translate the following phrase into Hindi. Click "Change" to get a new phrase.
+      Click "Answer" to see the translation.
+    <p><span id=sentence> </span>
+    <p><button class="btn" onclick="newSentence()">Change</button>
+    <button class="btn" onclick="seeAnswer()">Answer</button>
+      <span id=answer> </span>
+    <p>
+      Remember that adjectives are of two kinds : one which change their ending depending on the noun( like अच्छा ) and the other which don’t change (like लाल ).
+    <p>
+      For the first kind of adjectives (the one that end in ा), the ending changes depending on whether the noun is in in its direct or oblique form.
+    <p>
+      Adjectives also come in oblique forms - the unchanging adjectives don't change at all, even in their oblique forms.
+      The changeable adjectives have only two endings in the oblique form :  े or ी (they have three possible endings in the direct form).
+    <p>
+      Here are the rules for “changing” adjectives:
+      <ol>
+	<li>For direct nouns, the adjective ending will be ा , े or ी .
+	<li>	  For oblique nouns, the adjective ending will be े or ी (the ा also changes to े).
+      </ol>
+    <p>So, basically, the oblique form of an adjective is different from its direct form ONLY in the singular, masculine case - where the  ा  changes to े. We are talking about adjectives here. Nouns change in other ways that you should already be familiar with. 
+
+    <p>The oblique forms of ALL plural nouns are similar in their endings: 
+      लड़कों, लड़कियों, बंदरों, उल्लुओं, चीज़ों, वस्तुओं, आँखों,
+ 
+    <p>Singular nouns change in the oblique form ONLY for masculine nouns. 
+लड़का  becomes लड़के  BUT आदमी, लकड़ी, बिल्ली, उल्लू, बन्दर all remain unchanged.
+ 
+<p>      See examples:
+  <ul>
+    <li>अच्छा लड़का → अच्छे लड़के को
+<li>अच्छे लड़के  → अच्छे  लड़कों को
+<li>अच्छी लड़की  → अच्छी लड़की को
+<li>अच्छी लड़कियाँ  → अच्छी लड़कियों को
+  </ul>
+  
+<p>The same rules apply to possessive pronouns also:
+<ul><li>मेरा लड़का     →  मेरे लड़के को
+<li>मेरे लड़के       →  मेरे लड़कों को
+<li>मेरी लड़की     →  मेरी लड़की को
+<li>मेरी लडकियाँ →  मेरी लड़कियों को 
+</ul>
+<p>“This”, “That” etc. are also adjectives, and need to change to their oblique forms when called for. You already know the four oblique demonstrative adjectives : इस, उस, इन, उन. 
+<ul><li>ये औरतें  →  इन औरतों को 
+<li>ये आदमी → इन आदमियों को
+<li>यह मोटा आदमी → इस मोटे आदमी को
+</ul>
+
+<p>Some slightly more complex examples:
+<ul><li>these fat men →  ये मोटे आदमी 
+<li>to these fat men → इन मोटे आदमियों को
+<li>these fat men's  → इन मोटे आदमियों का/की/के (which of the three depends on the object(s) following this phrase).
+<li>these fat men's big hands →इन मोटे आदमियों  के बड़े हाथ 
+<li>these fat men's big eyes →इन मोटे आदमियों  की बड़ी आँखें 
+</ul>
+<p>So, if a noun is in it's oblique form, ALL the adjectives : including demonstrative adjectives (this, that, these, those) and possessive adjectives (my, his, ... the girl's, that man's) need to be in the oblique form.
+
+<p>
+For a phrase like "in these fat hands of mine", you would first change it to "my these fat hands में". Then change each word one at a time to its oblique form, making sure that the ending is right (for example, you will use मोटे instead of मोटा). The final phrase would be "मेरे इन छोटे हाथों में".
+   
+      </div>
+  </body>
+</html>
