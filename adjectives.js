@@ -20,31 +20,35 @@ const buildMap = (keys, values) => {
     return map;
 }
 
+
 let map = buildMap(english_words, hindi_translations);
     
 let whose = possessives.split(",");
 let nouns =  singulars.split(",");
 let adjs = adjectives.split(",");
 
-// masc/fem sing/plural direct/oblique
-let types = "msd mpd fsd fpd mso mpo fso fpo".split(' ');
-
 function get_rand (arr) {
     return arr[Math.floor(Math.random()*arr.length)].trim()
 }
 
+function createPhrase (p) {
+    let str = p.whose + " " + p.adj + " " + p.noun;
+    if (p.oblique) str += " को ...";
+    return str;
+}
+
 function newSentence() {
-    let who = get_rand(whose);
-    let adj = get_rand(adjs);
-    let noun = get_rand(nouns);
+    let phrase = {
+	whose : get_rand(whose),
+	adj : get_rand(adjs),
+	noun : get_rand(nouns),
+	oblique : Math.random() < 0.5
+    };
 
-    str = who + " " + adj + " " + noun;
+    let str = createPhrase(phrase);
 
-    let oblique = Math.random() < 0.5;
-    if (oblique) str += " को ...";
-
-    let fem = fems.includes(noun) || fems.includes(noun.slice(0,-1));
-    let plural = noun.endsWith('s');
+    let fem = fems.includes(phrase.noun) || fems.includes(phrase.noun.slice(0,-1));
+    let plural = phrase.noun.endsWith('s');
 
     let type = fem ? 'f' : 'm' ;
     type += plural ? 'p' : 's';
@@ -52,27 +56,44 @@ function newSentence() {
 
     $("#sentence").text(str);
     
-    let translated = "";
+    let translated = phrase;
 
-    if (type === "ms") {
-	if (oblique)
-	    translated = a2e(who) + " " + a2e(adj) + " " +  a2e(noun);
-	else
-	    translated = tr(who) + " " + map.get(adj) + " " +  map.get(noun);
-    } else if (type === "fs")
-	translated = a2i(who) + " " + a2i(adj) + " " + map.get(noun);
-    else if (type === "mp")
-	translated = a2e(who) + " " + a2e(adj) + " " +
-	(oblique ? a2on(noun.slice(0,-1)): a2e(noun.slice(0,-1)));
-    else if (type === "fp") 
-	    translated = a2i(who) + " " + a2i(adj) + " " +
-	(oblique ? i2iyon(noun.slice(0,-1)): i2iyan(noun.slice(0,-1)));
+    switch (type) {
+    case "ms":
+	if (phrase.oblique) {
+	    translated.whose = a2e(phrase.whose) ;
+	    translated.adj = a2e(phrase.adj) ;
+	    translated.noun = a2e(phrase.noun);
+	} else {
+	    translated.whose = tr(phrase.whose) ;
+	    translated.adj = map.get(phrase.adj) ;
+	    translated.noun = map.get(phrase.noun);
+	}
+	break;
+	
+    case "fs":
+	translated.whose = a2i(phrase.whose) ;
+	translated.adj = a2i(phrase.adj) ;
+	translated.noun = map.get(phrase.noun);
+	break;
+	
+    case "mp":
+	translated.whose = a2e(phrase.whose) ;
+	translated.adj = a2e(phrase.adj) ;
+	translated.noun = 
+	    (phrase.oblique ? a2on(phrase.noun.slice(0,-1)): a2e(phrase.noun.slice(0,-1)));
+	break;
+	
+    case "fp":
+	translated.whose = a2i(phrase.whose) ;
+	translated.adj = a2i(phrase.adj) ;
+	translated.noun = 
+	    (phrase.oblique ?
+	     i2iyon(phrase.noun.slice(0,-1)): i2iyan(phrase.noun.slice(0,-1)));
+    }
     
-    if (oblique)
-	translated += " को ...";
-    
-    console.log (str, translated);
-    $("#answer").text(translated.replace('.', ' ')).hide();
+    let tstr = createPhrase(translated);
+    $("#answer").text(tstr.replace('.', ' ')).hide();
     
     return str;
 }
@@ -128,19 +149,5 @@ $( document ).ready(function() {
     for (let i = 0; i < nl; i++) {
 	nouns.push(nouns[i]+"s");
     }
-
-    let links = `https://docs.google.com/document/d/196NO9lbiLuXnQ5i4RUa9cCHnN2lVWVpjsb64Tz8EOMY/edit?authkey=CNH9i-wE&hl=en_US
-    https://docs.google.com/document/d/1_xecskJVnpze1A96vOKthwVcYFSZkZR2VqD7-YQbQe8/edit?authkey=CLSgg4YI&hl=en_US&authkey=CLSgg4YI
-    https://docs.google.com/document/d/1-iuPvhtjwFZNB8thDkjN7qL-4lZIL2tjgXiJbQ6Wb3I/edit?hl=en_US
-    https://docs.google.com/document/d/1_xecskJVnpze1A96vOKthwVcYFSZkZR2VqD7-YQbQe8/edit?authkey=CLSgg4YI&hl=en_US&authkey=CLSgg4YI
-    https://docs.google.com/document/d/1snNpyA97mZ1qqixRiTYegjruc15dfH6ZD8dd9FF2L4E/edit?authkey=CLyKvugH&hl=en_US&authkey=CLyKvugH
-    https://docs.google.com/document/d/1_xecskJVnpze1A96vOKthwVcYFSZkZR2VqD7-YQbQe8/edit?authkey=CLSgg4YI&hl=en_US&authkey=CLSgg4YI`.split(/\s+/);
-
-    let i=0;
-    $("a").each(function () {
-	this.href = links[i++];
-	console.log(this.href);
-    });
-    
     newSentence();
 });

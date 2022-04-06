@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Hindi Verb Exercises </title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+	  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	  crossorigin="anonymous">
+    <style>
+      table td { font-family: monospace;}
+      table td:hover{ background-color: silver;}
+      tbody tr:nth-child(4n) {  border-bottom:10px solid #000;}
+    </style>
+    <script src=verbs.js></script>
+    
+  </head>
+ 
+  <body>
+    <div class="container">
+    <h1> Hindi Verb Exercises </h1>
+    <p> Translate the following sentence into Hindi. Click "Change Sentence" to get a new sentence.
+    <p><span id=sentence> </span>
+    <p><button class="btn" onclick="newSentence()">Change Sentence</button>
+    <p>Here's what I expect the translated sentences or phrases to be:
+      <ul>
+	<li>Present simple: I eat. मैं खाती  हूँ. (See <a>lesson</a>) </li>
+	<li>Present continuous: I am eating. मैं खा रही   हूँ . (See <a>lesson</a>) </li>
+	<li>Present perfect: I have eaten. मैंने  खाया  (OR खा लिया) है. (See <a>lesson</a>) </li>
+	<li>Past simple: I ate. मैंने  खाया. (See <a>lesson</a>) </li>
+	<li>Past perfect: I had eaten.  मैंने  खाया था. (See <a>lesson</a>) </li>
+	<li>Future simple: I will eat. मैं खाऊँगा. (See <a>lesson</a>) </li>
+	<li>If I eat ... : अगर मैं खाऊँ...(See <a>lesson</a>) </li>
+	<li>I should come. : मुझे आना चाहिए. (See <a>lesson</a>) </li>
+    	<li>I used to come: मैं आती थी. (See <a>lesson</a>) </li>
+    	<li>I have to come: मुझे आना है. (See <a>lesson</a>) </li>
+    	<li>I will come: मैं आऊंगी. (See <a>lesson</a>) </li>
+    	<li>I want to come: मैं आना चाहती हूँ. (See <a>lesson</a>)  </li>
+      </ul>
+      </div>
+  </body>
+</html>
