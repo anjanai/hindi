@@ -58,15 +58,27 @@ Pages that I used to teach Hindi to some elementary school kids.
 
 [homework18.html](homework18.html) Adjectives
 
-[homework19a.html](homework19a.html)
+[homework19a.html](homework19a.html) Nouns and their possesive cases
 
-[homework20a.html](homework20a.html)
+[homework20a.html](homework20a.html) Nouns and their possesive cases
 
-[homework21a.html](homework21a.html)
+[homework21a.html](homework21a.html) Commonly used phrases...
 
-[verb-exercises.html](verb-exercises.html)
+[Hindi Homework 22a](https://docs.google.com/document/d/14ToTXjCdtMMqLpUZmcdj661ZXZIvg5djRdKfj-pQF2g) Direct and oblique nouns
 
-[adjectives.html](adjectives.html)
+[Hindi Homework 22b](https://docs.google.com/document/d/18zh9sKz4z9G3wnKKHdESCmeR2E3T7tVJq2vlmtxplss) Direct and oblique nouns
+
+[Hindi 23a](https://docs.google.com/document/d/1EOffS4RCcyAPJ7Fy17brv6rLH83CjV3Er-buxkWWj_c) Verbs: Present Simple and Present Continuous Tenses
+
+[Hindi Homework 23a](https://docs.google.com/document/d/1HoNeGdtS30djmdFi_VRlEv6dsM81JU37ukFalhHmJfM) Verbs: Present Simple and Present Continuous Tenses
+
+[ Hindi Homework 23b](https://docs.google.com/document/d/1Gx9FXAtEwBk-a3jsC-eKib9atvFhtq4Xnrx-y9uip7E)  Verbs: Present Simple and Present Continuous Tenses
+
+
+
+[Hindi Homework 26a - verbs, pronouns, like](https://docs.google.com/document/d/1nV07GyiyLNwuoNFfUSj2QFTQNJhpvhl5pWM_hI-7uLg)
+
+
 
 [35a Subjunctive, So, because](https://docs.google.com/document/d/196NO9lbiLuXnQ5i4RUa9cCHnN2lVWVpjsb64Tz8EOMY)
 
@@ -108,17 +120,6 @@ Pages that I used to teach Hindi to some elementary school kids.
 
 [Hindi homework 32a - Confusing verbs](https://docs.google.com/document/d/1SRlnJZWkmpcIaQYw6xsYdnfV2fRgljRxgpgjEc9EGw8)
 
-[ Hindi Homework 23b](https://docs.google.com/document/d/1Gx9FXAtEwBk-a3jsC-eKib9atvFhtq4Xnrx-y9uip7E)
-
-[Hindi Homework 23a](https://docs.google.com/document/d/1HoNeGdtS30djmdFi_VRlEv6dsM81JU37ukFalhHmJfM)
-
-[Hindi 23a](https://docs.google.com/document/d/1EOffS4RCcyAPJ7Fy17brv6rLH83CjV3Er-buxkWWj_c)
-
-[Hindi Homework 22b](https://docs.google.com/document/d/18zh9sKz4z9G3wnKKHdESCmeR2E3T7tVJq2vlmtxplss)
-
-[Hindi Homework 22a](https://docs.google.com/document/d/14ToTXjCdtMMqLpUZmcdj661ZXZIvg5djRdKfj-pQF2g)
-
-[Hindi Homework 26a - verbs, pronouns, like](https://docs.google.com/document/d/1nV07GyiyLNwuoNFfUSj2QFTQNJhpvhl5pWM_hI-7uLg)
 
 [Hindi - kai, kab, kabhi](https://docs.google.com/document/d/13OyqICz0XmoiC7o9BYPGnSaOy4Gkrd4RjWTJ6oO7GtU)
 
@@ -145,5 +146,9 @@ Pages that I used to teach Hindi to some elementary school kids.
 [Hindi homework 27a](https://docs.google.com/document/d/1_xecskJVnpze1A96vOKthwVcYFSZkZR2VqD7-YQbQe8)
 
 [Hindi Homework - Direct / Oblique](https://docs.google.com/document/d/1cugZc3MyrGorZu5DX9h8VqFDo7m3y_iDsAiDf-EUR54)
+
+[verb-exercises.html](verb-exercises.html) 
+
+[adjectives.html](adjectives.html)
 
 [Ramayan Script](https://docs.google.com/document/d/1facizTTW7GCvaCqLImyMyVT3a0kN2aKl-gsj_zegKpw)
