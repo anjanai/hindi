@@ -30,33 +30,33 @@ Pages that I used to teach Hindi to some elementary school kids.
 
 [homework4b.html](homework4b.html) Practice half letters, vowels, matras
 
-[homework5a.html](homework5a.html)
+[homework5a.html](homework5a.html) The ै, ो, ौ matras
 
-[homework6a.html](homework6a.html)
+[homework6a.html](homework6a.html) क, ख, ग, घ, च, छ, ज, झ
 
-[homework7a.html](homework7a.html)
+[homework7a.html](homework7a.html) अ उ इ औ ऐ ऊ ए ई आ ओ
 
-[homework8a.html](homework8a.html)
+[homework8a.html](homework8a.html) ट, ठ, ड, ढ, ण
 
-[homework9a.html](homework9a.html)
+[homework9a.html](homework9a.html) Matra practice: ी, े, ै, ु, ू, ि, ा, ौ, ं, ँ, ो,
 
-[homework10a.html](homework10a.html)
+[homework10a.html](homework10a.html) त, थ, द, ध, न, AND ड़, ढ़ 
 
-[homework11a.html](homework11a.html)
+[homework11a.html](homework11a.html) The oddball र (the U and OO matras, and the half R): रु, रू, कर्म,
 
-[homework12a.html](homework12a.html)
+[homework12a.html](homework12a.html) More on the oddball र: half letter + full R
 
-[homework13a.html](homework13a.html)
+[homework13a.html](homework13a.html) More on the oddball र: the vowel ऋ and the ृ matra
 
-[homework14a.html](homework14a.html)
+[homework14a.html](homework14a.html) श, ष, श्र, क्ष
 
-[homework15a.html](homework15a.html)
+[homework15a.html](homework15a.html) the viram (विराम) or halant (हलन्त) : ्,, the visarg (विसर्ग): ः, ॐ,nज्ञ
 
-[homework16a.html](homework16a.html)
+[homework16a.html](homework16a.html) Conjunct letters: some combinations of half+full letters
 
-[homework17a.html](homework17a.html)
+[homework17a.html](homework17a.html) Nouns : masculine, feminine, singular, plural
 
-[homework18.html](homework18.html)
+[homework18.html](homework18.html) Adjectives
 
 [homework19a.html](homework19a.html)
 
