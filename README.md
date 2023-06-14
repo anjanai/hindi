@@ -1,6 +1,6 @@
 Pages that I used to teach Hindi to some elementary school kids.
 
-[lesson0.html](lesson0.html)
+[lesson0.html](lesson0.html) य  र  व  ह  न  क  म 
 
 [lesson00.html](lesson00.html)
 
