@@ -74,6 +74,7 @@ Pages that I used to teach Hindi to some elementary school kids.
 
 [ Hindi Homework 23b](https://docs.google.com/document/d/1Gx9FXAtEwBk-a3jsC-eKib9atvFhtq4Xnrx-y9uip7E)  Verbs: Present Simple and Present Continuous Tenses
 
+[Hindi Homework 24a](https://docs.google.com/document/d/13SyHFRxlrVT5YDxR_j_Dz_XtphrOPqd8deqCbYV9dRE) Verbs: Past Tense and Use of Use of सकना 
 
 
 [Hindi Homework 26a - verbs, pronouns, like](https://docs.google.com/document/d/1nV07GyiyLNwuoNFfUSj2QFTQNJhpvhl5pWM_hI-7uLg)
@@ -133,7 +134,8 @@ Pages that I used to teach Hindi to some elementary school kids.
 
 [Hindi Homework 31a - with Main Bhi](https://docs.google.com/document/d/1v8m7uylRKM1tkgEpXup9vqBRmnEfozUMtHUXVc7CTak)
 
-[Hindi Homework 24a](https://docs.google.com/document/d/13SyHFRxlrVT5YDxR_j_Dz_XtphrOPqd8deqCbYV9dRE)
+
+
 
 [Copy of Hindi homework - Confusing verbs](https://docs.google.com/document/d/1DrRC2112KgXt6kaZH4B6HfN3Pv0wd8iC7gyXBFoc89k)
 
